@@ -1,1 +1,42 @@
+/* Background */
+body {background-color:#132636}
 
+/* Fonts, Colors, Formatting */
+
+    .resumename {color:#F8F5E8; font-weight:600; font-size:32px; height: 230px; width: 300px; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"; display:inline}
+
+    .contactinfo {color:#F8F5E8; font-weight:600; font-size:35px; height: 100px; text-align:left; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"} 
+
+    p {color:#F8F5E8; font-size:15px; font-family:"Work sans", sans-serif; text-indent: 40px;}
+    ul {color:#F8F5E8; font-size:15px; font-family:"Work sans", sans-serif}
+    ol {color:#F8F5E8; font-size:15px; font-family:"Work sans", sans-serif}
+    li {color:#F8F5E8; font-size:15px; font-family:"Work sans", sans-serif}
+    a  {color:#F8F5E8; font-size:15px; font-family:"Work sans", sans-serif}
+    summary {color:#F8F5E8; font-size:16px; font-family:"Work sans", sans-serif}
+
+    h1 {color:#F8F5E8; font-size:35px; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"}
+    h2 {color:#F8F5E8; font-size:30px; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"}
+    h3 {color:#95B7C1; font-size:25px; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"; display:inline; text-align:center; margin-top: 10px}
+    h4 {color:#d35836; font-size:20px; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"; display:inline; text-align:center; padding-top: 250px; margin:45px; margin-top: 12px}
+    h5 {color:#95B7C1; font-size:16px; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"; text-indent: 5px; padding-top: 0px; margin:5px; margin-top: 12px; font-style: italic}
+    h6 {color:#F8F5E8; font-size:14px; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"}
+
+
+/* Blocks, Padding, Formatting */
+
+.header {background-color: #d35836; display: grid; align-items: center; grid-template-columns: 1fr 1fr 1fr 1fr; border-radius: 5px; padding-left: 10px; padding-bottom: 10px; padding-top: 10px}
+.sectiontitle {vertical-align: middle; padding: 0; margin:0; margin-bottom: -10px}
+.skills {display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 15px; row-gap: 7px; color:#d35836; font-size:15px; font-weight: 600; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"; padding-top: 10px; padding-left: 30px}
+.hobbies {display: grid; grid-template-columns: 1fr 1fr 1fr; column-gap: 15px; row-gap: 7px; color:#d35836; font-size:15px; font-weight: 600; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"; padding-top: 10px; padding-left: 30px}
+.attributions {background-color:#d35836; color: #ffffff; font-size:15px; font-weight: 600; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"; border-radius: 5px; padding-right: 10px; padding-left: 10px; padding-top: .5px; padding-bottom: .5px}
+
+details {color:#F8F5E8; font-weight:600; font-size:32px; height: 80px; width: 300px; font-family:"Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic Pro", Meiryo, "MS Gothic"; display:inline}
+
+/* Headshot Sizing & Formatting */
+
+.headshot {width: 200px; height: 200px; border-radius: 5px; display: inline; max-width: 100%; max-height: 100%}
+.linkedin {max-width: 50px; max-height: 50px; position: relative; top: 10px; right: 1px;}
+
+/* Icon Sizing & Formatting */
+
+.icon {width: 40px; height: 40px; vertical-align: middle; margin:auto; padding: 5px; display:inline-block}
